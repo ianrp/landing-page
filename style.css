@@ -32,7 +32,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #E5E7EB
+    color: #E5E7EB;
 }
 
 .hero-section {
@@ -67,6 +67,7 @@ button {
     font-weight: bold;
     border-radius: 10px;
     border-style: none;
+    flex-shrink: 0;
 }
 
 .hero-section img {
@@ -112,17 +113,55 @@ h3 {
     background-color: #E5E7EB;
     font-size: 36px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 200px;
+    padding: 100px 0;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 820px;
+    padding-left: 80px;
 }
 
 .quote-section p {
-    font-style: italic;
-    padding-left: 40px;
+    font-style: italic;  
 }
 
 .quote-section b {
     align-self: flex-end;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    color: #E5E7EB;
+}
+
+.banner {
+    background-color:#3882F6;
+    width: 800px;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.cta-section button {
+    border-color: #E5E7EB;
+    border-style: solid;
 }

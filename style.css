@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
-    color: #F9FAF8;
+    color: #1F2937;
     margin: 0;
 }
 
@@ -16,6 +16,7 @@ header {
 
 h1 {
     font-size: 24px;
+    color:#F9FAF8;
 }
 
 ul {
@@ -24,7 +25,7 @@ ul {
     gap: 30px;
 }
 
-header li {
+li {
     list-style-type: none;
     font-size: 18px;
 }
@@ -44,6 +45,7 @@ a {
 h2 {
     font-size: 48px;
     font-weight: bold;
+    color:#F9FAF8;
     margin: 0;
 }
 
@@ -101,8 +103,26 @@ h3 {
 
 .info-section p {
     font-size: 18px;
-    color: #1F2937;
     text-align: center;
     max-width: 175px;
     margin: 10px auto;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.quote-section p {
+    font-style: italic;
+    padding-left: 40px;
+}
+
+.quote-section b {
+    align-self: flex-end;
 }

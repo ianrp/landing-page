@@ -80,6 +80,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 h3 {
@@ -115,7 +116,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .quote-container {
@@ -131,6 +132,7 @@ h3 {
 
 .quote-section b {
     align-self: flex-end;
+    font-size: 24px;
 }
 
 .cta-section {
@@ -143,11 +145,11 @@ h3 {
 .banner {
     background-color:#3882F6;
     width: 800px;
-    min-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 100px;
+    border-radius: 10px;
 }
 
 h4 {
@@ -164,4 +166,13 @@ h4 {
 .cta-section button {
     border-color: #E5E7EB;
     border-style: solid;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
